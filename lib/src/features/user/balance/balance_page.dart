@@ -7,6 +7,9 @@ import 'package:intl/intl.dart';
 
 import '../user_accounts/user_accounts.dart';
 
+/// ユーザーの金融機関残高表示画面
+///
+/// ユーザー名、金融機関残高の合計金額を画面上部に、画面下部に金融機関ごと残高をリストで表示。
 class BalancePage extends ConsumerWidget {
   const BalancePage({Key? key, required this.user}) : super(key: key);
 
